@@ -1,7 +1,9 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import img9 from './images/img-9.jpg';
+import mobile_app from './images/mobile-app.jpg'
+import titantic_dataset from './images/titanic-dataset.jpg'
+import personal_website from './images/personal-website.png'
 
 function Cards() {
   return (
@@ -11,7 +13,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={img9}
+              src={titantic_dataset}
               text='Database project storing info'
               label='Main'
               path='/services'
@@ -25,13 +27,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='./images/img-3.jpg'
+              src={mobile_app}
               text='Making a mobile app'
               label='Secondary'
               path='/services'
             />
             <CardItem
-              src='./images/img-4.jpg'
+              src={personal_website}
               text='Developing a website through basic HTML, CSS, & Javascript'
               label='Secondary'
               path='/products'
