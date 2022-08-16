@@ -45,11 +45,12 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
+            <h2>Adobe Express</h2>
+            <Link to={{ pathname: "https://express.adobe.com/page/S9sUvFK1gMaae/" }} target="_blank">Adobe Express Website</Link>
+            <Link to={{ pathname: "https://express.adobe.com/video/PaagwyRL13j55" }} target="_blank">1-Minute Professional Pitch</Link>
+            <Link to={{ pathname: "https://express.adobe.com/video/D42F5cGr5TY9k" }} target="_blank">2 Minute POC Pitch</Link>
+            <Link to={{ pathname: "https://xd.adobe.com/view/7a7a61d9-fa41-4b08-8b7c-84c55ec27f34-2f29/" }} target="_blank">Recorded POC XD Wireframes</Link>
+            <Link to={{ pathname: "https://youtu.be/sDFxKL4kPw0" }} target="_blank">Ray Tracing Project</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -65,11 +66,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              A.V.L
-              <i class='fab fa-typo3' />
+              AVL
             </Link>
           </div>
-          <small class='website-rights'>A.V.L © 2022</small>
+          <small class='website-rights'>AVL © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

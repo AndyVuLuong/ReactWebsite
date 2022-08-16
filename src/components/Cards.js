@@ -4,7 +4,9 @@ import CardItem from './CardItem';
 import mobile_app from './images/mobile-app.jpg'
 import titantic_dataset from './images/titanic-dataset.jpg'
 import personal_website from './images/personal-website.png'
-
+/*import professional_website from './images/professional-website.png'*/
+import climate from './images/climate.png'
+import unreal from './images/unreal.png'
 function Cards() {
   return (
     <div className='cards'>
@@ -16,13 +18,13 @@ function Cards() {
               src={titantic_dataset}
               text='Database project storing info'
               label='Main'
-              path='/services'
+              path='/products'
             />
             <CardItem
-              src='./images/img-2.jpg'
-              text='Building a professional website through React'
+              src={climate}
+              text='Input & output global climate data in csv with Java'
               label='Main'
-              path='/services'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
@@ -30,7 +32,7 @@ function Cards() {
               src={mobile_app}
               text='Making a mobile app'
               label='Secondary'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src={personal_website}
@@ -39,10 +41,12 @@ function Cards() {
               path='/products'
             />
             <CardItem
-              src='./images/img-8.jpg'
+              src={unreal}
               text='Coding a game under Unreal Engine 5'
               label='Secondary'
-              path='/sign-up'
+            
+              to={{pathname:'https://www.linkedin.com/in/andy-luong-computer-scientist/'}}
+              target='_blank'
             />
           </ul>
         </div>

@@ -17,21 +17,22 @@
 }
 
 .services {
-  background-image: url('/images/img-2.jpg');
+  background-image: url('/images/courses.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
+  background-image: url('/images/github.png');
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: #fff;
   font-size: 100px;
+  
 }
 
 .products p {
@@ -39,7 +40,7 @@
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  background-image: url('/images/SJSU-campus.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
