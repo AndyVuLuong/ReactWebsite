@@ -28,7 +28,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          <Link to={{ pathname: "https://express.adobe.com/video/PaagwyRL13j55" }} target="_blank">Video About Me</Link>
+          <Link to={{ pathname: "https://express.adobe.com/video/PaagwyRL13j55" }} target="_blank">Video</Link>
         <i className='far fa-play-circle' />
         </Button>
       </div>
