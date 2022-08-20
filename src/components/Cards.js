@@ -4,6 +4,7 @@ import CardItem from './CardItem';
 import mobile_app from './images/mobile-app.jpg'
 import titantic_dataset from './images/titanic-dataset.jpg'
 import personal_website from './images/personal-website.png'
+import { Link } from 'react-router-dom';
 /*import professional_website from './images/professional-website.png'*/
 import climate from './images/climate.png'
 import unreal from './images/unreal.png'
@@ -18,9 +19,9 @@ function Cards() {
               src={titantic_dataset}
               text='Database project storing info'
               label='Main'
-              path='/products'
-            />
-            <CardItem
+              path=            <Link to={{ pathname: "https://express.adobe.com/page/S9sUvFK1gMaae/" }} target="_blank">Projects</Link>
+
+            />            <CardItem
               src={climate}
               text='Input & output global climate data in csv with Java'
               label='Main'
@@ -44,9 +45,7 @@ function Cards() {
               src={unreal}
               text='Coding a game under Unreal Engine 5'
               label='Secondary'
-            
-              to={{pathname:'https://www.linkedin.com/in/andy-luong-computer-scientist/'}}
-              target='_blank'
+              path='/products'
             />
           </ul>
         </div>
