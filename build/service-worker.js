@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AndyVuLuong/Professional-Website/precache-manifest.5cdb66d4b7168c627598d4d47904088f.js"
+  "/AndyVuLuong/ReactWebsite/precache-manifest.8b1d0406c1a93ce0cf8f5b7775c803d1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/AndyVuLuong/Professional-Website/index.html", {
+workbox.routing.registerNavigationRoute("/AndyVuLuong/ReactWebsite/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
