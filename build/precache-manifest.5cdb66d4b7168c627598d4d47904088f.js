@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "658d5fbdedd99e9cff67",
-    "url": "/AndyVuLuong/Professional-Website/static/css/main.e6cd026a.chunk.css"
+    "revision": "6ef0cfec0af9fc88dfae",
+    "url": "/AndyVuLuong/Professional-Website/static/css/main.69ef4d2f.chunk.css"
   },
   {
-    "revision": "658d5fbdedd99e9cff67",
-    "url": "/AndyVuLuong/Professional-Website/static/js/main.658d5fbd.chunk.js"
+    "revision": "6ef0cfec0af9fc88dfae",
+    "url": "/AndyVuLuong/Professional-Website/static/js/main.6ef0cfec.chunk.js"
   },
   {
-    "revision": "ad1efb76f8f1ae4b045e",
-    "url": "/AndyVuLuong/Professional-Website/static/js/1.ad1efb76.chunk.js"
+    "revision": "59c7ca6d1fb374f62872",
+    "url": "/AndyVuLuong/Professional-Website/static/js/1.59c7ca6d.chunk.js"
   },
   {
     "revision": "75fd194155dc7ae3c763",
@@ -36,7 +36,11 @@ self.__precacheManifest = [
     "url": "/AndyVuLuong/Professional-Website/static/media/unreal.868ef95c.png"
   },
   {
-    "revision": "7b942decb35b99a022aa6fabcd74698a",
+    "revision": "a86fdd9040bee1cee98afd9083470ce5",
+    "url": "/AndyVuLuong/Professional-Website/static/media/SJSU.a86fdd90.jpg"
+  },
+  {
+    "revision": "5c5296c72461182c5e16387d8f1d57ab",
     "url": "/AndyVuLuong/Professional-Website/index.html"
   }
 ];
