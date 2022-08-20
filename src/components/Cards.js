@@ -19,9 +19,10 @@ function Cards() {
               src={titantic_dataset}
               text='Database project storing info'
               label='Main'
-              path=            <Link to={{ pathname: "https://express.adobe.com/page/S9sUvFK1gMaae/" }} target="_blank">Projects</Link>
-
-            />            <CardItem
+              path='/products'
+            />         
+               
+            <CardItem
               src={climate}
               text='Input & output global climate data in csv with Java'
               label='Main'
@@ -43,7 +44,7 @@ function Cards() {
             />
             <CardItem
               src={unreal}
-              text='Coding a game under Unreal Engine 5'
+              text='Coding a game using Unreal Engine 5'
               label='Secondary'
               path='/products'
             />
